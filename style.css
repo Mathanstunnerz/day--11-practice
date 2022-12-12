@@ -1,0 +1,111 @@
+
+
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kumar {
+    text-decoration: none;
+    display: inline;
+}
+.kumar:visited{
+    color: rgb(94, 255, 0);
+      
+}
+.kumar:hover{
+    color: red;
+}
+p:active{
+    color: yellow;
+}
+[href *="morningbrew"]:hover{
+    color: saddlebrown;
+}
+
+.new-potral{
+  display: flex;
+    width:400px;
+    height: 200px;
+   background-color: aqua;
+   position:none;
+   align-items: center;
+justify-content: center;
+flex-flow: row wrap;
+
+}
+.new-common{
+   
+   width: 20px;
+    height: 20px;
+    background-color: blue;
+     margin: 5px;
+     text-align: center;
+    }
+.gradiant{
+     display: inline-block;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(rgb(255, 0, 0),rgb(255, 174, 0),rgb(1, 87, 37));
+    
+}
+.gradiant1{
+    display: inline-block;
+    position: relative;
+    top:20px;
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(rgb(96, 112, 255),rgb(0, 35, 230),rgb(1, 24, 107),rgb(0, 0, 0));
+
+}
+.gradiant2{
+    display:inline-block;
+    position: relative;
+    top:40px;
+    width:200px;
+    height: 100px;
+    background:conic-gradient(rgb(100, 1, 42),rgb(209, 3, 137),rgb(255, 78, 167));
+}
+
+.bb{
+display:block;
+}
+
+.bb h3{
+    display: inline;
+    position: relative;
+    bottom: 50px;
+
+}
+.bb2{
+    display: block;
+}
+.bb2 h3{
+    display: inline;
+    position: relative;
+    bottom: 30px;;
+}
+.bb3{
+    display: block;
+}
+.bb3 h3{
+     display: inline;
+     position: relative;
+     bottom: 8px;
+}
+.pulse{
+    position: relative;
+    top: 60px;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      font-variation-settings: 'wght' 100;
+    }
+    50% {
+      font-variation-settings: 'wght' 700;
+    }
+    100% {
+      font-variation-settings: 'wght' 100;
+    }
+  }
